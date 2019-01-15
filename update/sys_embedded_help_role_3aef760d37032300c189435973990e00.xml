@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_34618_fumble.fumble_table_user" name="x_34618_fumble.fumble_table_user">b2ef360d37032300c189435973990efe</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-15 14:16:56</sys_created_on>
+        <sys_id>3aef760d37032300c189435973990e00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b2ef360d37032300c189435973990efe</sys_name>
+        <sys_package display_value="fumble" source="x_34618_fumble">bd0f328137032300c189435973990ef9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="fumble">bd0f328137032300c189435973990ef9</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3aef760d37032300c189435973990e00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-15 14:16:56</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
