@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-02-20 18:14:36">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>api website https://developer.accuweather.com/
+username = mturner1981@gmail.com or dev51127
+PW = Monday1!</description>
+<inserted/>
+<name>global_api_RP_Weather_1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>cde34d3837332300c189435973990e32</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>3e8fcdfc37332300c189435973990ea2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_49f44d3837332300c189435973990eca</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Accuweather [ Default GET ]</qualified_name><rest_endpoint>http://dataservice.accuweather.com</rest_endpoint><rest_message display_value="Accuweather">bbd4857837332300c189435973990eab</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:28:19</sys_created_on><sys_id>49f44d3837332300c189435973990eca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_49f44d3837332300c189435973990eca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:28:19</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-1985811305</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>328fcdfc37332300c189435973990ea6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690bf378f00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>0df44d381a3323005ada3ca65f5361cb</update_guid>
+<update_guid_history>0df44d381a3323005ada3ca65f5361cb:-1985811305</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_param_defs_6715497837332300c189435973990ec5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>apikey</name><order>100</order><rest_message_function display_value="Location">fff4097837332300c189435973990e3b</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:36:36</sys_created_on><sys_id>6715497837332300c189435973990ec5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>apikey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_6715497837332300c189435973990ec5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:36:36</sys_updated_on><value>55OJyOWc9oZpETNddpYudAq3YGeuO1dn</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+<payload_hash>499578662</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>368f097037732300c189435973990e23</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690bfb0f860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>apikey</target_name>
+<type>HTTP Query Parameters</type>
+<update_domain>global</update_domain>
+<update_guid>6ad681380a3323000929d9845e3bd0da</update_guid>
+<update_guid_history>6ad681380a3323000929d9845e3bd0da:499578662</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_producer_4ff9417c37332300c189435973990e8f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category display_value="Can We Help You?"&gt;e15706fc0a0a0aa7007fc21e1ab70c2f&lt;/category&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description/&gt;&lt;entitlement_script/&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0&lt;/list_price&gt;&lt;location/&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Weather Alert&lt;/name&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;post_insert_script/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=4ff9417c37332300c189435973990e8f&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0&lt;/recurring_price&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;roles/&gt;&lt;sc_catalogs&gt;e0d08b13c3330100c8b837659bba8fb4&lt;/sc_catalogs&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;script&gt;&lt;![CDATA[current.short_description = 'Weather Alert for: '+producer.city;
+var weatherData = 'City: '+producer.city+'\n';
+weatherData += 'Weather Information: '+producer.WeatherText+'\n';
+weatherData += 'Precipitation Type: '+producer.PrecipitationType+'\n';
+weatherData += 'Temperature (F): '+producer.Temperature+'\n';
+current.comments = weatherData;]]&gt;&lt;/script&gt;&lt;short_description/&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-20 17:51:49&lt;/sys_created_on&gt;&lt;sys_id&gt;4ff9417c37332300c189435973990e8f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Weather Alert&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_4ff9417c37332300c189435973990e8f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-20 18:05:38&lt;/sys_updated_on&gt;&lt;table_name&gt;incident&lt;/table_name&gt;&lt;template/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4ff9417c37332300c189435973990e8f"/&gt;&lt;fx_price action="delete_multiple" query="id=4ff9417c37332300c189435973990e8f"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;4ff9417c37332300c189435973990e8f&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-20 17:51:49&lt;/sys_created_on&gt;&lt;sys_id&gt;555a013c37332300c189435973990e5d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-20 17:51:49&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;4ff9417c37332300c189435973990e8f&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-20 17:51:49&lt;/sys_created_on&gt;&lt;sys_id&gt;1d5a013c37332300c189435973990e60&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-20 17:51:49&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>246760648</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>368fcdfc37332300c189435973990ea5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c15a45b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table>incident</table>
+<target_name>Weather Alert</target_name>
+<type>Record Producer</type>
+<update_domain>global</update_domain>
+<update_guid>ff7d4130da732300df25a47950b3365f</update_guid>
+<update_guid_history>ff7d4130da732300df25a47950b3365f:246760648,574d0dfc8f332300b34b8c69f0af88b3:-1752270398,d55ac57c6a332300acd0d2c6ed275587:1396352234</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_e9ba0d7c37332300c189435973990e75</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Weather Alert">4ff9417c37332300c189435973990e8f</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>weather_alert_widget</name><order>200</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Weather Alert Widget</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>incident</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget display_value="Weather Alert">ea8809f837332300c189435973990ef2</sp_widget><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:55:12</sys_created_on><sys_id>e9ba0d7c37332300c189435973990e75</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Weather Alert Widget</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_e9ba0d7c37332300c189435973990e75</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:56:48</sys_updated_on><table/><tooltip/><type>14</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=e9ba0d7c37332300c189435973990e75"/><fx_price action="delete_multiple" query="id=e9ba0d7c37332300c189435973990e75"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>e9ba0d7c37332300c189435973990e75</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:55:12</sys_created_on><sys_id>3a1bc17c37332300c189435973990ed0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:55:12</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>e9ba0d7c37332300c189435973990e75</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:55:12</sys_created_on><sys_id>fe1bc17c37332300c189435973990ece</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:55:12</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-408986234</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>3a8fcdfc37332300c189435973990ea4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c0d8bea0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Weather Alert Widget</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>967b05bc0f332300041d66d477ead7b4</update_guid>
+<update_guid_history>967b05bc0f332300041d66d477ead7b4:-408986234,004bcd7c153323001439791a61312d0a:-267874704,071b01bc4933230015881fb99ba85cc1:906512600</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_060cc9bc37332300c189435973990eac</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Weather Alert">4ff9417c37332300c189435973990e8f</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>PrecipitationType</name><order>400</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Precipitation Type</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>incident</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:59:39</sys_created_on><sys_id>060cc9bc37332300c189435973990eac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Precipitation Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_060cc9bc37332300c189435973990eac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:59:39</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=060cc9bc37332300c189435973990eac"/><fx_price action="delete_multiple" query="id=060cc9bc37332300c189435973990eac"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>060cc9bc37332300c189435973990eac</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:59:39</sys_created_on><sys_id>002cc9bc37332300c189435973990ec0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:59:39</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>060cc9bc37332300c189435973990eac</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:59:39</sys_created_on><sys_id>c42cc9bc37332300c189435973990ebe</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:59:39</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-722391060</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>3e8fcdfc37332300c189435973990ea3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c1027ec0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Precipitation Type</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>842cc9bc8233230048d66438a6b3e5c4</update_guid>
+<update_guid_history>842cc9bc8233230048d66438a6b3e5c4:-722391060</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_ee08097837332300c189435973990e56</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>location</name><rest_message_function display_value="Current Weather">0017c9b837332300c189435973990e05</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:41:58</sys_created_on><sys_id>ee08097837332300c189435973990e56</sys_id><sys_mod_count>0</sys_mod_count><sys_name>location</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_parameters_ee08097837332300c189435973990e56</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:41:58</sys_updated_on><type>string</type><value>2247543</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-1760108452</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>728f097037732300c189435973990e23</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690bfff9600000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>location</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>c11845f84d33230065507df473a73470</update_guid>
+<update_guid_history>c11845f84d33230065507df473a73470:-1760108452</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_147c41fc37332300c189435973990e9f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions/&gt;&lt;catalog_item display_value="Weather Alert"&gt;4ff9417c37332300c189435973990e8f&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;PrecipitationType&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-20 18:01:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;147c41fc37332300c189435973990e9f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;PrecipitationType&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_147c41fc37332300c189435973990e9f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-20 18:01:36&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2011627956</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>728fcdfc37332300c189435973990ea3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c11f40c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>PrecipitationType</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>389c4dbcaa33230093497b0a90c17d67</update_guid>
+<update_guid_history>389c4dbcaa33230093497b0a90c17d67:2011627956</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_category_b77d413037732300c189435973990e57</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Weather Alert">4ff9417c37332300c189435973990e8f</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 18:05:38</sys_created_on><sys_id>b77d413037732300c189435973990e57</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Weather Alert</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_category_b77d413037732300c189435973990e57</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 18:05:38</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+<payload_hash>-101230263</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>728fcdfc37332300c189435973990ea5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c15a4790000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Can We Help You?.Weather Alert</target_name>
+<type>Catalog Item Category</type>
+<update_domain>global</update_domain>
+<update_guid>b37d41306b732300c265390d57c16761</update_guid>
+<update_guid_history>b37d41306b732300c265390d57c16761:-101230263</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_834ccdbc37332300c189435973990e91</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Weather Alert">4ff9417c37332300c189435973990e8f</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>city</name><order>600</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>City</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>incident</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 18:00:41</sys_created_on><sys_id>834ccdbc37332300c189435973990e91</sys_id><sys_mod_count>0</sys_mod_count><sys_name>City</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_834ccdbc37332300c189435973990e91</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 18:00:41</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=834ccdbc37332300c189435973990e91"/><fx_price action="delete_multiple" query="id=834ccdbc37332300c189435973990e91"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>834ccdbc37332300c189435973990e91</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 18:00:41</sys_created_on><sys_id>db5c09bc37332300c189435973990ed9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 18:00:41</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>834ccdbc37332300c189435973990e91</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 18:00:41</sys_created_on><sys_id>935c09bc37332300c189435973990ed8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 18:00:41</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>1137341594</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>768fcdfc37332300c189435973990ea4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c111b910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>City</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>5b5c01fca233230048a34a33d6e57440</update_guid>
+<update_guid_history>5b5c01fca233230048a34a33d6e57440:1137341594</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_3eac05fc37332300c189435973990e26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Weather Alert">4ff9417c37332300c189435973990e8f</catalog_item><catalog_variable>IO:060cc9bc37332300c189435973990eac</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 18:02:14</sys_created_on><sys_id>3eac05fc37332300c189435973990e26</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PrecipitationType</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>catalog_ui_policy_action_3eac05fc37332300c189435973990e26</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 18:02:14</sys_updated_on><table/><ui_policy display_value="PrecipitationType">147c41fc37332300c189435973990e9f</ui_policy><variable>PrecipitationType</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>1409146127</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>7a8fcdfc37332300c189435973990ea3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c12853a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>PrecipitationType</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>3dbc05fcda332300ac4c06cb157d152e</update_guid>
+<update_guid_history>3dbc05fcda332300ac4c06cb157d152e:1409146127</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_0017c9b837332300c189435973990e05</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user>admin</basic_auth_user><content/><function_name>Current Weather</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Accuweather [ Current Weather ]</qualified_name><rest_endpoint>http://dataservice.accuweather.com/currentconditions/v1/${location}</rest_endpoint><rest_message display_value="Accuweather">bbd4857837332300c189435973990eab</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:37:54</sys_created_on><sys_id>0017c9b837332300c189435973990e05</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Current Weather</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_0017c9b837332300c189435973990e05</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:37:54</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-586365245</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>7e8fcdfc37332300c189435973990ea5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690bfc3ffa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Current Weather</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>e9278178dc332300e0d6b7823e328c1f</update_guid>
+<update_guid_history>e9278178dc332300e0d6b7823e328c1f:-586365245</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_666a497c37332300c189435973990e33</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Weather Alert">4ff9417c37332300c189435973990e8f</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>caller_id</name><order>100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Ask on behalf of this user</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>incident</record_producer_table><reference>sys_user</reference><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:53:17</sys_created_on><sys_id>666a497c37332300c189435973990e33</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ask on behalf of this user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_666a497c37332300c189435973990e33</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:53:17</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=666a497c37332300c189435973990e33"/><fx_price action="delete_multiple" query="id=666a497c37332300c189435973990e33"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>666a497c37332300c189435973990e33</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:53:17</sys_created_on><sys_id>b6aa0db837332300c189435973990e74</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:53:17</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>666a497c37332300c189435973990e33</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:53:17</sys_created_on><sys_id>7eaa0db837332300c189435973990e72</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:53:17</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-777048071</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>b28fcdfc37332300c189435973990ea4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c0a56cb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Ask on behalf of this user</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>4faac97cc6332300079b6e188c7657b2</update_guid>
+<update_guid_history>4faac97cc6332300079b6e188c7657b2:-777048071</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_param_defs_bd35813837332300c189435973990ec5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>q</name><order>100</order><rest_message_function display_value="Location">fff4097837332300c189435973990e3b</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:36:36</sys_created_on><sys_id>bd35813837332300c189435973990ec5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>q</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_bd35813837332300c189435973990ec5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:36:36</sys_updated_on><value>${q}</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+<payload_hash>-240525452</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>ba8f097037732300c189435973990e23</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690bfb0fb00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>q</target_name>
+<type>HTTP Query Parameters</type>
+<update_domain>global</update_domain>
+<update_guid>a2d68138413323003236e7ba4c5147dc</update_guid>
+<update_guid_history>a2d68138413323003236e7ba4c5147dc:-240525452</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_bbd4857837332300c189435973990eab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>public</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>Accuweather</name><oauth2_profile/><protocol_name/><rest_endpoint>http://dataservice.accuweather.com</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:28:19</sys_created_on><sys_id>bbd4857837332300c189435973990eab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Accuweather</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_bbd4857837332300c189435973990eab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:28:19</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>1769419278</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>ba8fcdfc37332300c189435973990ea5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690bf379190000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Accuweather</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>cdf44d382f332300bc02f23fe1c5edcc</update_guid>
+<update_guid_history>cdf44d382f332300bc02f23fe1c5edcc:1769419278</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_3de785f837332300c189435973990eea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>q</name><rest_message_function display_value="Location">fff4097837332300c189435973990e3b</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:41:28</sys_created_on><sys_id>3de785f837332300c189435973990eea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>q</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_parameters_3de785f837332300c189435973990eea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:41:28</sys_updated_on><type>string</type><value>Fort Ripley</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-610734899</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>be8f097037732300c189435973990e22</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690bff82890000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>q</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>39f74978073323000695ff18096ef1d0</update_guid>
+<update_guid_history>39f74978073323000695ff18096ef1d0:-610734899</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_catalog_c34dc5fc37332300c189435973990e43</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Weather Alert">4ff9417c37332300c189435973990e8f</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 18:04:46</sys_created_on><sys_id>c34dc5fc37332300c189435973990e43</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Weather Alert</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sc_cat_item_catalog_c34dc5fc37332300c189435973990e43</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 18:04:46</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+<payload_hash>2048545443</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>be8fcdfc37332300c189435973990ea4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c14da530000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Service Catalog.Weather Alert</target_name>
+<type>Catalog Items Catalog</type>
+<update_domain>global</update_domain>
+<update_guid>8f4dc5fc60332300ccbc82b5102c3a47</update_guid>
+<update_guid_history>8f4dc5fc60332300ccbc82b5102c3a47:2048545443</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_param_defs_93270db837332300c189435973990ec4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>apikey</name><order>100</order><rest_message_function display_value="Current Weather">0017c9b837332300c189435973990e05</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:39:23</sys_created_on><sys_id>93270db837332300c189435973990ec4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>apikey</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_93270db837332300c189435973990ec4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:39:23</sys_updated_on><value>55OJyOWc9oZpETNddpYudAq3YGeuO1dn</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+<payload_hash>-839303344</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>f68f097037732300c189435973990e23</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690bfd9c450000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>apikey</target_name>
+<type>HTTP Query Parameters</type>
+<update_domain>global</update_domain>
+<update_guid>d777c9b84933230085aaf5e0772c1f0a</update_guid>
+<update_guid_history>d777c9b84933230085aaf5e0772c1f0a:-839303344</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_ea8809f837332300c189435973990ef2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope) {
+	var c = this;
+	c.getWeather = function() {
+		c.server.update().then(function() {
+			var g_form = $scope.page.g_form;
+			g_form.setValue('WeatherText', c.data.WeatherText);
+			g_form.setValue('PrecipitationType', c.data.PrecipitationType);
+			g_form.setValue('Temperature', c.data.Temperature);
+			g_form.setValue('city', c.data.city);
+		})
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;weather_alert&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Weather Alert&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	if (input) {
+		try { 
+			//Get Location
+			var rloc = new sn_ws.RESTMessageV2('Accuweather', 'Location');
+			rloc.setStringParameterNoEscape('q', input.location);
+			var locResponse = rloc.execute();
+			var locResponseBody = locResponse.getBody();
+			var locHttpStatus = locResponse.getStatusCode();
+			var locParser = new JSONParser();
+			var locJsonObj = locParser.parse(locResponseBody);
+			var locKey = locJsonObj[0].Key;
+			data.city = locJsonObj[0].LocalizedName;
+			
+			//Get Current Weather
+			var rCW = new sn_ws.RESTMessageV2('Accuweather', 'Current Weather');
+			rCW.setStringParameterNoEscape('location', locKey);
+			var cwResponse = rCW.execute();
+			var cwResponseBody = cwResponse.getBody();
+			var cwHttpStatus = cwResponse.getStatusCode();
+			var cwParser = new JSONParser();
+			var cwJsonObj = cwParser.parse(cwResponseBody);
+			data.WeatherText = cwJsonObj[0].WeatherText;
+			data.PrecipitationType = cwJsonObj[0].PrecipitationType;
+			data.Temperature = cwJsonObj[0].Temperature.Imperial.Value;
+		}
+		catch(ex) {
+			var message = ex.message;
+		}
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-20 17:43:59&lt;/sys_created_on&gt;&lt;sys_id&gt;ea8809f837332300c189435973990ef2&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Weather Alert&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_ea8809f837332300c189435973990ef2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-20 17:49:55&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="panel panel-default"&gt;
+  &lt;div class="panel-heading"&gt;
+    ${Get Current Weather}
+  &lt;/div&gt;
+  &lt;div class="panel-body"&gt;
+    &lt;div class="input-group"&gt;
+      &lt;input type="text" class="form-control" id="location" placeholder="${City}" ng-model="c.data.location"&gt;
+      &lt;span class="input-group-btn"&gt;
+        &lt;button type="submit" class="btn btn-primary" ng-click="c.getWeather();"&gt;${Request}&lt;/button&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1535318873</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>f68fcdfc37332300c189435973990ea5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c073fb20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Weather Alert</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>a1e985f87a3323002437b781eea001f5</update_guid>
+<update_guid_history>a1e985f87a3323002437b781eea001f5:-1535318873,e28809f85f332300781ec19942e0c2f4:-364587117</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_fff4097837332300c189435973990e3b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user>admin</basic_auth_user><content/><function_name>Location</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Accuweather [ Location ]</qualified_name><rest_endpoint>http://dataservice.accuweather.com/locations/v1/cities/search</rest_endpoint><rest_message display_value="Accuweather">bbd4857837332300c189435973990eab</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:28:59</sys_created_on><sys_id>fff4097837332300c189435973990e3b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Location</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_fff4097837332300c189435973990e3b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:28:59</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-1087640759</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>fa8f097037732300c189435973990e22</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690bf416120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Location</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>fa1585388a3323007d7a659444501410</update_guid>
+<update_guid_history>fa1585388a3323007d7a659444501410:-1087640759</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_f7db49bc37332300c189435973990eb9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Weather Alert">4ff9417c37332300c189435973990e8f</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>WeatherText</name><order>300</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Weather Information</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>incident</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:59:04</sys_created_on><sys_id>f7db49bc37332300c189435973990eb9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Weather Information</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_f7db49bc37332300c189435973990eb9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:59:04</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=f7db49bc37332300c189435973990eb9"/><fx_price action="delete_multiple" query="id=f7db49bc37332300c189435973990eb9"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>f7db49bc37332300c189435973990eb9</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:59:04</sys_created_on><sys_id>27fb89bc37332300c189435973990ee9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:59:04</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>f7db49bc37332300c189435973990eb9</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 17:59:04</sys_created_on><sys_id>ebfb89bc37332300c189435973990ee7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 17:59:04</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-764927887</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>fa8fcdfc37332300c189435973990ea4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c0fa1530000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Weather Information</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>abfb89bc95332300f11c59f3e96302ed</update_guid>
+<update_guid_history>abfb89bc95332300f11c59f3e96302ed:-764927887</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_1a2c0dbc37332300c189435973990eee</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Weather Alert">4ff9417c37332300c189435973990e8f</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>Temperature</name><order>500</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Temperature (F)</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>incident</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 18:00:11</sys_created_on><sys_id>1a2c0dbc37332300c189435973990eee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Temperature (F)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_1a2c0dbc37332300c189435973990eee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 18:00:11</sys_updated_on><table/><tooltip/><type>6</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=1a2c0dbc37332300c189435973990eee"/><fx_price action="delete_multiple" query="id=1a2c0dbc37332300c189435973990eee"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>1a2c0dbc37332300c189435973990eee</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 18:00:11</sys_created_on><sys_id>733c85bc37332300c189435973990ed0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 18:00:11</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>1a2c0dbc37332300c189435973990eee</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-20 18:00:11</sys_created_on><sys_id>3b3c85bc37332300c189435973990ece</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-20 18:00:11</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>496865856</payload_hash>
+<remote_update_set display_value="global_api_RP_Weather_1">3e8fcdfc37332300c189435973990ea2</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-20 18:14:35</sys_created_on>
+<sys_id>fe8fcdfc37332300c189435973990ea3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1690c10a5d20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-20 18:14:35</sys_updated_on>
+<table/>
+<target_name>Temperature (F)</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>7b3c8dbce7332300eabd8c5ad2bf6181</update_guid>
+<update_guid_history>7b3c8dbce7332300eabd8c5ad2bf6181:496865856</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
