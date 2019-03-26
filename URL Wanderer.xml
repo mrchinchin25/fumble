@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-03-26 14:06:36">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Functionality designed to help identify non-roled users who have tried to navigate away from service portal</description>
+<inserted/>
+<name>URL Wandering</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7e0513a7dbd0b3406529f7e339961914</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-03-26 14:06:36</sys_created_on>
+<sys_id>b5dc936fdbd0b3406529f7e339961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-03-26 14:06:36</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_e0075be7dbd0b3406529f7e3399619f0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>List of pages that are not considered wandering. Comma separated including slashes.</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>url.wander.whitelist</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-03-26 13:44:24</sys_created_on><sys_id>e0075be7dbd0b3406529f7e3399619f0</sys_id><sys_mod_count>5</sys_mod_count><sys_name>url.wander.whitelist</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_e0075be7dbd0b3406529f7e3399619f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-03-26 14:06:14</sys_updated_on><type>string</type><value>/home.do</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=e0075be7dbd0b3406529f7e3399619f0"/></record_update>]]></payload>
+<payload_hash>-1771428117</payload_hash>
+<remote_update_set display_value="URL Wandering">b5dc936fdbd0b3406529f7e339961950</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-03-26 14:06:36</sys_created_on>
+<sys_id>31dc936fdbd0b3406529f7e339961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169ba52ad810000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-03-26 14:06:36</sys_updated_on>
+<table/>
+<target_name>url.wander.whitelist</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>10cc936f66d0b3405158fed507a88e64</update_guid>
+<update_guid_history>10cc936f66d0b3405158fed507a88e64:-1771428117,97bc536f80d0b3400651ce0d0e217d76:-1364613655,7c2cdfeb88d0b340efc5dd2d80d336ab:-1771428117,17e8d36bb2d0b3405c222741f48bc7b3:-1803881479,19c8136bd7d0b340040aae926bad4517:-1771428117,bcc79be797d0b340c6dff628b0f88785:-610341955</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_e65993abdbd0b3406529f7e3399619cf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Properties">d546447bc0a8016900046469895b557a</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>URL Wandering</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order/><override_menu_roles>false</override_menu_roles><query>/system_properties_ui.do?sysparm_category=URL%20Wandering&amp;sysparm_domain_restore=false&amp;sysparm_stack=no&amp;sysparm_title=URL Wandering</query><report/><roles>admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-03-26 13:51:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e65993abdbd0b3406529f7e3399619cf</sys_id><sys_mod_count>4</sys_mod_count><sys_name>URL Wandering</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_e65993abdbd0b3406529f7e3399619cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-03-26 13:55:03</sys_updated_on><timeline_page/><title>URL Wandering</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>830960656</payload_hash>
+<remote_update_set display_value="URL Wandering">b5dc936fdbd0b3406529f7e339961950</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-03-26 14:06:36</sys_created_on>
+<sys_id>35dc936fdbd0b3406529f7e339961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169ba4870940000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-03-26 14:06:36</sys_updated_on>
+<table/>
+<target_name>URL Wandering</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>603adfab11d0b34011499ad64ce9d703</update_guid>
+<update_guid_history>603adfab11d0b34011499ad64ce9d703:830960656,36f9dbabdad0b340cf5af5cceb70dc26:-1816168980,e9e9dbab76d0b340404fb7124db82b13:-1975552304,1f9957ab4dd0b34078a6e3fee5f1ab85:-738726765,c07953ab30d0b34033d5d660aca50fe0:-1975552304</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_e8495f6bdbd0b3406529f7e33996192d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="URL Wandering">89395f6bdbd0b3406529f7e339961925</category><order>1</order><property display_value="url.wander.whitelist" name="url.wander.whitelist">e0075be7dbd0b3406529f7e3399619f0</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-03-26 13:50:57</sys_created_on><sys_id>e8495f6bdbd0b3406529f7e33996192d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>url.wander.whitelist.URL Wandering</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_e8495f6bdbd0b3406529f7e33996192d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-03-26 13:50:57</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>480732934</payload_hash>
+<remote_update_set display_value="URL Wandering">b5dc936fdbd0b3406529f7e339961950</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-03-26 14:06:36</sys_created_on>
+<sys_id>7ddc936fdbd0b3406529f7e339961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169ba44b1000000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-03-26 14:06:36</sys_updated_on>
+<table/>
+<target_name>url.wander.whitelist.URL Wandering</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>ec4953ab61d0b3406cdc48620ef43843</update_guid>
+<update_guid_history>ec4953ab61d0b3406cdc48620ef43843:480732934</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_15eb8e5fdb5473406529f7e33996190c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.URLwandering&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Usage: &amp;#13;
+&amp;#13;
+var url_wandering = new URLwandering;&amp;#13;
+url_wandering.execute();&lt;/description&gt;&lt;name&gt;URLwandering&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var URLwandering = Class.create();
+URLwandering.prototype = {
+	initialize: function(minutesAgo) {
+		if(!minutesAgo) minutesAgo = gs.getProperty("url.wander.poll_interval");
+		this.timeMinutesAgo = this.getTimeMinutesAgo(minutesAgo);
+	},
+	
+	_getUserById: function(username) {
+		
+		var gr = new GlideRecord("sys_user");
+		gr.addQuery("user_name",username);
+		gr.query();
+		
+		if(gr.next()) {
+			return gr.sys_id;
+		} else {
+			return false;
+		}
+	},
+	
+	hasNoRole: function(username) {
+		var gr = new GlideRecord("sys_user_has_role");
+		gr.addQuery("user",this._getUserById(username));
+		gr.addQuery("role","!=","7fcaa702933002009c8579b4f47ffbde");  // exclude users with snc_internal role
+		gr.query();
+		
+		if(gr.hasNext()) {
+			return false;
+		} else {
+			return true;
+		}
+	},
+	
+	getTimeMinutesAgo: function(m) {
+		
+		var ms = 1000 * 60 * m;
+		var now = new GlideDateTime();
+		now.subtract(ms);
+		return now.getValue();
+	},
+	
+	getUsersInTimeframe: function() {
+		var users = [];
+		
+		var gr = new GlideAggregate("syslog_transaction");
+		gr.addQuery("sys_created_on","&gt;=",this.timeMinutesAgo);
+		gr.addAggregate("count","sys_created_by");
+		gr.groupBy("sys_created_by");
+		gr.query();
+		
+		while(gr.next()) {
+			if(this.hasNoRole(gr.sys_created_by)) {
+				users.push(gr.sys_created_by.toString());
+			}
+		}
+		
+		return users;
+	},
+	
+	hasWandered: function(user_name) {
+		var tr = new GlideRecord("syslog_transaction");
+		tr.addQuery("sys_created_on","&gt;=",this.timeMinutesAgo);
+		tr.addQuery("type","IN","list,form");
+		tr.addQuery("url","DOES NOT CONTAIN","/sp/");
+		tr.addQuery("sys_created_by",user_name);
+		
+		var whitelist = gs.getProperty("url.wander.whitelist").split(",");
+		for(i=0; i&lt;whitelist.length; i++) {
+			tr.addQuery("url","DOES NOT CONTAIN",whitelist[i]);
+		}
+		
+		tr.query();
+		gs.print(user_name + ":" + tr.getRowCount());
+		
+		while(tr.next()) {
+			gs.eventQueue("url.wander",tr,user_name,tr.url);
+		} 
+	},
+	
+	execute: function() {
+		var users = this.getUsersInTimeframe();
+		var w;	
+		for(i=0; i&lt;users.length-1; i++) {
+			w = this.hasWandered(users[i]);
+		}
+	},
+	
+	type: 'URLwandering'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-03-25 13:37:21&lt;/sys_created_on&gt;&lt;sys_id&gt;15eb8e5fdb5473406529f7e33996190c&lt;/sys_id&gt;&lt;sys_mod_count&gt;84&lt;/sys_mod_count&gt;&lt;sys_name&gt;URLwandering&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_15eb8e5fdb5473406529f7e33996190c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-26 14:05:43&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1733274470</payload_hash>
+<remote_update_set display_value="URL Wandering">b5dc936fdbd0b3406529f7e339961950</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-03-26 14:06:36</sys_created_on>
+<sys_id>b5dc936fdbd0b3406529f7e339961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169ba5234120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-03-26 14:06:36</sys_updated_on>
+<table/>
+<target_name>URLwandering</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>70ac136fbad0b3408c6702b3c6c14130</update_guid>
+<update_guid_history>70ac136fbad0b3408c6702b3c6c14130:-1733274470,cdca17ebbbd0b340a019128a946f095d:314228948,b9191b6be7d0b3404a05814de2fdd1fa:-811006325,a8d8df2b7bd0b3400e83fa0e305fef41:-1985986662,dcb81f2bc0d0b3405fa27f22f3288dee:-1571166662,a568db2b1bd0b34015f63d228d19902c:-8201036,3748db2ba0d0b340a905c84a31dc6c03:-288844,d7381b2b6dd0b34065ffadc5cf65758b:-183236716,f718972bcfd0b3405915e8661d86d8ab:740345555,31f7172b6cd0b340bd89bf982cbcdff5:-536756589,6ab7532bd0d0b340c5094def358ab859:-1582856622,b79617e7c5d0b3403b8ef61682e713ba:-1501409748,724653e755d0b340af6deee2798092f2:-199118298,71369fa7c4d0b34017250a6c2705506b:1714301724,69061fa7cbd0b340a99baa42f5d1933a:-115354069,88c51ba79bd0b34037cc93c32fc7b00b:-110511379,94b9fee3d990b340bbe27fd04415fc56:-1039181018,df90122b7910b340549612abc4cef1ab:1082610959,45ed46a7b110b340b9f3f9be9ba36259:-1302393304,fd5d026fd6dc73407ceb5581b364966a:1363422349,832bbe5f14d47340f91aa82a527815d4:-1763383439,6ffa329fa7d473408383d3fdb7eccd24:1135419063,0cfa329f12d4734069434b74aaf98107:279973814,cdda7e5fcad4734049d3be6254246cf7:-2029811091,8dca7e5fc6d47340f28825f8891e7ced:863877318,bcf9365f74d47340a38317cbc043bbb4:194604771,9ce9b25f63d473401abb2937fa04a1bd:-1657156831,3dc9325f78d4734099b914b05465dd0f:-1877559913,bd89f61f3dd473403d79c6a3d10a8fc4:-866853813,5b39ba1f9ed47340f3d5901e52454aab:1342724673,68b8f61f75d47340f0767712f81515a2:-1084650864,aca8321f62d4734061de125ef3a4ce90:-1144718057,1e68361fdbd47340c8ff80d800421753:-249710963,0f28321f2cd4734077d7ccae2bf54374:-220291215,9218bedba2d4734022be443cb826fe71:-1861689558,fc08bedb8cd47340fd26b620f428ec0d:585033562,74e73edb0ad4734052d48051ad9b1992:-1267324486,62526a5f409473401f750ae77be44c1c:-31886589,6e426a5f2d94734070bfc0406ce2ef3f:-1085890237,0332a65f679473404dcd604e55c26de4:2072232131,f722a65f0b9473400b09b0a75d99cade:-327668318,9e02a65f069473408ea95522323d9bd9:-63778906,94f1265f7894734043b97fb4a998479b:241110122,9ce1265fb49473401277dddfac45394d:-2127012982,07b166db0d9473406332c9893e370f98:-435162955,1a1f52dbf69473405acd93f22fb17774:-1650238631,73fe52db589473405c54a13ddf94326a:1352201532,3aae52dbf59473404ed62c4c92798e65:68363287,528e5e9be99473401198a190fe2da90b:1358245687,f07e9e9b08947340c55e057ae5ddc665:-1339640957,2f5e9e9b41947340c8d9d5dbf1efe63d:-709280317,1d4e5e9b6b9473401828b29162288c04:-1620222259,8a2e9a9b1b9473407cbf8a3a799a63e6:-1710697978,c51e5a9bf9947340c37c9eaf864ac9a3:-400521366,affd5a9b7c947340a0bb00c87be3049e:724928351,9cfd969b0194734032dc1c19d057a2f9:1360657876,7bddd69b409473409ad0d0b06c763c09:431580860,decd969b5c947340f8342bfd65ad1af0:2095033291,06bdd29b27947340ea559b2c145085a0:-1310974252,4c9dd29b9094734002345a8f190f9584:958585964,1b7dd29bcd9473405b36ce5fd2c37472:375298075,9c2dde5b2f9473402dd7bfd3d3441382:-311754620,affc5e5b8c947340f818454c487e8bb6:-723679292,31ec565b58947340f50f02119fc2aa00:-1689162857,a90c125b159473405dfb87ce3b39f1c9:1019874680,9deb5e1b869473400dff8f77b3a90a08:-989367066,d6bb1e1bcb947340791b3446b570faff:1197618756,41541ed32e9473403c9c3666e1d91d85:-399187944,af045ad3c49473407b1a3e82a3413e2a:807580688,29a396d341947340eb0cbe470b90e39f:-636603748,cc739a934f9473404b69adfc97a959f1:320167131,5b829a93b39473409e07a7eb76590fde:1282819736,c0829a933c9473408b14187dd7c41727:1046664530,a74296936d947340b6fa5cb6dd6be950:891735799,d222569370947340c9d25b087bcf230e:-2026955397,3502d293aa947340ee6b6484487675f1:107640061,7cf1d29383947340d10a00fd6b33b86b:1818603366,fea11293c59473401f6a2461cfa1f217:107640061,9b81d253cc947340cf69d1f07be97ae8:1818603366,7570125340947340ddf48377706af961:107640061,927f8213ed947340b0e6d4b0c7ef85c2:-2085170447,d53f0adfc15473405283af58e1304ce6:676305339,8f1fcedf8a547340a2b447630a7e50fb:-868164443,dc0fcedf825473409b88449eab1bcddc:1039588002,6b8c0e5fb454734068ebd144babae06b:-1114076912</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_d0ea57ebdbd0b3406529f7e3399619fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="URL Wandering">89395f6bdbd0b3406529f7e339961925</category><order>100</order><property display_value="url.wander.poll_interval" name="url.wander.poll_interval">f1aad3ebdbd0b3406529f7e3399619ae</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-03-26 13:58:02</sys_created_on><sys_id>d0ea57ebdbd0b3406529f7e3399619fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>url.wander.poll_interval.URL Wandering</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_d0ea57ebdbd0b3406529f7e3399619fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-03-26 13:58:02</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-1562797560</payload_hash>
+<remote_update_set display_value="URL Wandering">b5dc936fdbd0b3406529f7e339961950</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-03-26 14:06:36</sys_created_on>
+<sys_id>b9dc936fdbd0b3406529f7e339961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169ba4b2b8c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-03-26 14:06:36</sys_updated_on>
+<table/>
+<target_name>url.wander.poll_interval.URL Wandering</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>5cea57ebbad0b340fd203ee83f358afe</update_guid>
+<update_guid_history>5cea57ebbad0b340fd203ee83f358afe:-1562797560</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_f1aad3ebdbd0b3406529f7e3399619ae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Default poll time in minutes</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>url.wander.poll_interval</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-03-26 13:57:51</sys_created_on><sys_id>f1aad3ebdbd0b3406529f7e3399619ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>url.wander.poll_interval</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_f1aad3ebdbd0b3406529f7e3399619ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-03-26 13:57:51</sys_updated_on><type>string</type><value>15</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=f1aad3ebdbd0b3406529f7e3399619ae"/></record_update>]]></payload>
+<payload_hash>172782779</payload_hash>
+<remote_update_set display_value="URL Wandering">b5dc936fdbd0b3406529f7e339961950</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-03-26 14:06:36</sys_created_on>
+<sys_id>f1dc936fdbd0b3406529f7e339961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169ba4b08700000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-03-26 14:06:36</sys_updated_on>
+<table/>
+<target_name>url.wander.poll_interval</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>c2da57ebedd0b3403769f0f2fd591264</update_guid>
+<update_guid_history>c2da57ebedd0b3403769f0f2fd591264:172782779</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_89395f6bdbd0b3406529f7e339961925</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_properties_category"&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;&lt;name&gt;URL Wandering&lt;/name&gt;&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-03-26 13:50:57&lt;/sys_created_on&gt;&lt;sys_id&gt;89395f6bdbd0b3406529f7e339961925&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;URL Wandering&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_properties_category_89395f6bdbd0b3406529f7e339961925&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-26 13:50:57&lt;/sys_updated_on&gt;&lt;title&gt;&lt;![CDATA[&lt;p&gt;URL Wandering properties&lt;/p&gt;]]&gt;&lt;/title&gt;&lt;/sys_properties_category&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=89395f6bdbd0b3406529f7e339961925"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1514330183</payload_hash>
+<remote_update_set display_value="URL Wandering">b5dc936fdbd0b3406529f7e339961950</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-03-26 14:06:36</sys_created_on>
+<sys_id>f5dc936fdbd0b3406529f7e339961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169ba44b0d70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-03-26 14:06:36</sys_updated_on>
+<table/>
+<target_name>URL Wandering</target_name>
+<type>System Property Category</type>
+<update_domain>global</update_domain>
+<update_guid>ac495f6b6ed0b340768c5d14e03b732c</update_guid>
+<update_guid_history>ac495f6b6ed0b340768c5d14e03b732c:1514330183</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_288dce67db10b3406529f7e339961958</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description/><event_name>url.wander</event_name><fired_by/><queue/><suffix/><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-03-26 08:20:15</sys_created_on><sys_id>288dce67db10b3406529f7e339961958</sys_id><sys_mod_count>0</sys_mod_count><sys_name>url.wander</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysevent_register_288dce67db10b3406529f7e339961958</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-03-26 08:20:15</sys_updated_on><table/></sysevent_register></record_update>]]></payload>
+<payload_hash>1568535664</payload_hash>
+<remote_update_set display_value="URL Wandering">b5dc936fdbd0b3406529f7e339961950</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-03-26 14:06:36</sys_created_on>
+<sys_id>f9dc936fdbd0b3406529f7e339961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169b915eb2b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-03-26 14:06:36</sys_updated_on>
+<table/>
+<target_name>url.wander</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_guid>d89d8e671d10b3404e91cb6a6524e2ea</update_guid>
+<update_guid_history>d89d8e671d10b3404e91cb6a6524e2ea:1568535664</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
